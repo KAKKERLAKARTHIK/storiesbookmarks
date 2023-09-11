@@ -12,14 +12,24 @@ iframe{display: block;
     margin-left: 400px;
     border: 5px solid blueviolet;
     border-radius: 10%;
+    
 }
+
+
+
 
 span{font-size: 22px;
     text-align: justify;
 }
 nav{
-background-color: rgb(13, 13, 13);
+
 font-size: 35px;
+
+position: -webkit-sticky;
+position: sticky;
+
+top: 0px;
+justify-content: space-evenly;
 text-align: center;
 
 }
@@ -59,7 +69,15 @@ body{
 }
 
 
+.karthik{position: sticky;
+    top: 0;
+    margin: center;
+    background-color: black;
+    width: 100%;
 
+
+
+}
 /*{
     margin: 0;
     padding: 0;
